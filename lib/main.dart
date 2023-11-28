@@ -12,8 +12,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-          child: Center(child: Text('Expence tracker')),
-        ),
+          child: Center(child: Text('Expcgdf') )
       ),
     );
   }
