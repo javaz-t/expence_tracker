@@ -1,19 +1,8 @@
+import 'package:expence_tacker/expenses.dart';
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(MainApp());
+  runApp(const MaterialApp(
+    home: MainApp()));
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Container(
-          child: Center(child: Text('Expcgdf') )
-      ),
-    );
-  }
-}
